@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BGP Fundamentals Lab Topology - NetworkThinkTank Labs -->
+<!-- Open this file with draw.io (https://app.diagrams.net) -->
+<mxfile>
+  <diagram name="BGP Lab Topology">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- AS 65001 -->
+        <mxCell id="2" value="AS 65001 (ISP-A)" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="150" y="50" width="400" height="200" as="geometry"/>
+        </mxCell>
+        <!-- R1 -->
+        <mxCell id="3" value="R1&#xa;Route Reflector&#xa;10.0.0.1/32" style="shape=mxgraph.cisco.routers.router;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="80" height="60" as="geometry"/>
+        </mxCell>
+        <!-- R2 -->
+        <mxCell id="4" value="R2&#xa;PE Router&#xa;10.0.0.2/32" style="shape=mxgraph.cisco.routers.router;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="120" width="80" height="60" as="geometry"/>
+        </mxCell>
+        <!-- R3 -->
+        <mxCell id="5" value="R3&#xa;Customer Edge&#xa;AS 65002&#xa;10.0.0.3/32" style="shape=mxgraph.cisco.routers.router;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="350" width="80" height="60" as="geometry"/>
+        </mxCell>
+        <!-- R4 -->
+        <mxCell id="6" value="R4&#xa;Customer Edge&#xa;AS 65003&#xa;10.0.0.4/32" style="shape=mxgraph.cisco.routers.router;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="470" y="350" width="80" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
